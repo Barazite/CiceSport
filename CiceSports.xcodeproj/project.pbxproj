@@ -14,6 +14,24 @@
 		09BFF206265C258200395356 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF204265C258200395356 /* SplashViewController.xib */; };
 		09BFF217265C315700395356 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF216265C315700395356 /* AppAssembly.swift */; };
 		09BFF22E265C393100395356 /* BaseVIPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF22D265C393100395356 /* BaseVIPER.swift */; };
+		09BFF233265D6D4A00395356 /* SplashPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF232265D6D4A00395356 /* SplashPresenterImpl.swift */; };
+		09BFF238265D6EE700395356 /* SplashRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF237265D6EE700395356 /* SplashRouterImpl.swift */; };
+		09BFF23D265D71BC00395356 /* SplashAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF23C265D71BC00395356 /* SplashAssembly.swift */; };
+		09BFF243265D730E00395356 /* ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF242265D730E00395356 /* ReuseIdentifier.swift */; };
+		09BFF24C265EB91200395356 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF24B265EB91200395356 /* RequestManager.swift */; };
+		09BFF255265EBA3700395356 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF254265EBA3700395356 /* Utils.swift */; };
+		09BFF25E265EC43B00395356 /* SplashProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF25D265EC43B00395356 /* SplashProviderImpl.swift */; };
+		09BFF267265EC76E00395356 /* ResponseMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF266265EC76E00395356 /* ResponseMenuModel.swift */; };
+		09BFF26F265ED2A900395356 /* SplashInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF26E265ED2A900395356 /* SplashInteractorImpl.swift */; };
+		09BFF276265ED98200395356 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF275265ED98200395356 /* MenuViewModel.swift */; };
+		09BFF27E2660144100395356 /* SWRevealViewController .m in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF27D2660144100395356 /* SWRevealViewController .m */; };
+		09BFF2852660155900395356 /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF2832660155900395356 /* HomeTabBarController.swift */; };
+		09BFF2862660155900395356 /* HomeTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF2842660155900395356 /* HomeTabBarController.xib */; };
+		09BFF28E2660159D00395356 /* HomeTabBarAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF28D2660159D00395356 /* HomeTabBarAssembly.swift */; };
+		09BFF2952660224200395356 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF2932660224200395356 /* MenuViewController.swift */; };
+		09BFF2962660224200395356 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF2942660224200395356 /* MenuViewController.xib */; };
+		09BFF2A22660271100395356 /* TrainingOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF2A02660271100395356 /* TrainingOneViewController.swift */; };
+		09BFF2A32660271100395356 /* TrainingOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF2A12660271100395356 /* TrainingOneViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +63,26 @@
 		09BFF204265C258200395356 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
 		09BFF216265C315700395356 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
 		09BFF22D265C393100395356 /* BaseVIPER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVIPER.swift; sourceTree = "<group>"; };
+		09BFF232265D6D4A00395356 /* SplashPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenterImpl.swift; sourceTree = "<group>"; };
+		09BFF237265D6EE700395356 /* SplashRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouterImpl.swift; sourceTree = "<group>"; };
+		09BFF23C265D71BC00395356 /* SplashAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashAssembly.swift; sourceTree = "<group>"; };
+		09BFF242265D730E00395356 /* ReuseIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifier.swift; sourceTree = "<group>"; };
+		09BFF24B265EB91200395356 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		09BFF254265EBA3700395356 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		09BFF25D265EC43B00395356 /* SplashProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashProviderImpl.swift; sourceTree = "<group>"; };
+		09BFF266265EC76E00395356 /* ResponseMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseMenuModel.swift; sourceTree = "<group>"; };
+		09BFF26E265ED2A900395356 /* SplashInteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractorImpl.swift; sourceTree = "<group>"; };
+		09BFF275265ED98200395356 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		09BFF27B2660144100395356 /* CiceSports-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CiceSports-Bridging-Header.h"; sourceTree = "<group>"; };
+		09BFF27C2660144100395356 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		09BFF27D2660144100395356 /* SWRevealViewController .m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SWRevealViewController .m"; sourceTree = "<group>"; };
+		09BFF2832660155900395356 /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		09BFF2842660155900395356 /* HomeTabBarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTabBarController.xib; sourceTree = "<group>"; };
+		09BFF28D2660159D00395356 /* HomeTabBarAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarAssembly.swift; sourceTree = "<group>"; };
+		09BFF2932660224200395356 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		09BFF2942660224200395356 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		09BFF2A02660271100395356 /* TrainingOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingOneViewController.swift; sourceTree = "<group>"; };
+		09BFF2A12660271100395356 /* TrainingOneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainingOneViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +131,10 @@
 		09BFF1C8265C249000395356 /* CiceSports */ = {
 			isa = PBXGroup;
 			children = (
+				09BFF27A266013F200395356 /* MenuLateral */,
+				09BFF253265EBA2900395356 /* Utils */,
+				09BFF24A265EB8D400395356 /* Managers */,
+				09BFF241265D72E300395356 /* Helpers */,
 				09BFF221265C38E900395356 /* BaseVIPER */,
 				09BFF215265C30F500395356 /* Core */,
 				09BFF202265C253400395356 /* Modules */,
@@ -107,6 +149,9 @@
 		09BFF202265C253400395356 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				09BFF29D2660266D00395356 /* Training */,
+				09BFF2922660222800395356 /* Menu */,
+				09BFF2822660150400395356 /* Home */,
 				09BFF20A265C259E00395356 /* SplashView */,
 			);
 			path = Modules;
@@ -115,8 +160,13 @@
 		09BFF20A265C259E00395356 /* SplashView */ = {
 			isa = PBXGroup;
 			children = (
+				09BFF274265ED96A00395356 /* ViewModel */,
+				09BFF25C265EC40C00395356 /* Infrastucture */,
 				09BFF203265C258200395356 /* SplashViewController.swift */,
 				09BFF204265C258200395356 /* SplashViewController.xib */,
+				09BFF232265D6D4A00395356 /* SplashPresenterImpl.swift */,
+				09BFF26E265ED2A900395356 /* SplashInteractorImpl.swift */,
+				09BFF237265D6EE700395356 /* SplashRouterImpl.swift */,
 			);
 			path = SplashView;
 			sourceTree = "<group>";
@@ -135,6 +185,110 @@
 				09BFF22D265C393100395356 /* BaseVIPER.swift */,
 			);
 			path = BaseVIPER;
+			sourceTree = "<group>";
+		};
+		09BFF241265D72E300395356 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				09BFF242265D730E00395356 /* ReuseIdentifier.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		09BFF24A265EB8D400395356 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				09BFF24B265EB91200395356 /* RequestManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		09BFF253265EBA2900395356 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				09BFF254265EBA3700395356 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		09BFF25C265EC40C00395356 /* Infrastucture */ = {
+			isa = PBXGroup;
+			children = (
+				09BFF265265EC75C00395356 /* Model */,
+				09BFF23C265D71BC00395356 /* SplashAssembly.swift */,
+				09BFF25D265EC43B00395356 /* SplashProviderImpl.swift */,
+			);
+			path = Infrastucture;
+			sourceTree = "<group>";
+		};
+		09BFF265265EC75C00395356 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09BFF266265EC76E00395356 /* ResponseMenuModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09BFF274265ED96A00395356 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				09BFF275265ED98200395356 /* MenuViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		09BFF27A266013F200395356 /* MenuLateral */ = {
+			isa = PBXGroup;
+			children = (
+				09BFF27D2660144100395356 /* SWRevealViewController .m */,
+				09BFF27C2660144100395356 /* SWRevealViewController.h */,
+				09BFF27B2660144100395356 /* CiceSports-Bridging-Header.h */,
+			);
+			path = MenuLateral;
+			sourceTree = "<group>";
+		};
+		09BFF2822660150400395356 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				09BFF2832660155900395356 /* HomeTabBarController.swift */,
+				09BFF2842660155900395356 /* HomeTabBarController.xib */,
+				09BFF28D2660159D00395356 /* HomeTabBarAssembly.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		09BFF2922660222800395356 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				09BFF2932660224200395356 /* MenuViewController.swift */,
+				09BFF2942660224200395356 /* MenuViewController.xib */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		09BFF29D2660266D00395356 /* Training */ = {
+			isa = PBXGroup;
+			children = (
+				09BFF29F266026E300395356 /* N2 */,
+				09BFF29E266026D900395356 /* N1 */,
+			);
+			path = Training;
+			sourceTree = "<group>";
+		};
+		09BFF29E266026D900395356 /* N1 */ = {
+			isa = PBXGroup;
+			children = (
+				09BFF2A02660271100395356 /* TrainingOneViewController.swift */,
+				09BFF2A12660271100395356 /* TrainingOneViewController.xib */,
+			);
+			path = N1;
+			sourceTree = "<group>";
+		};
+		09BFF29F266026E300395356 /* N2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = N2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +358,7 @@
 				TargetAttributes = {
 					09BFF1C5265C249000395356 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					09BFF1DB265C249200395356 = {
 						CreatedOnToolsVersion = 12.3;
@@ -242,7 +397,10 @@
 			files = (
 				09BFF1D6265C249100395356 /* LaunchScreen.storyboard in Resources */,
 				09BFF206265C258200395356 /* SplashViewController.xib in Resources */,
+				09BFF2962660224200395356 /* MenuViewController.xib in Resources */,
+				09BFF2862660155900395356 /* HomeTabBarController.xib in Resources */,
 				09BFF1D3265C249100395356 /* Assets.xcassets in Resources */,
+				09BFF2A32660271100395356 /* TrainingOneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +426,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				09BFF217265C315700395356 /* AppAssembly.swift in Sources */,
+				09BFF27E2660144100395356 /* SWRevealViewController .m in Sources */,
+				09BFF276265ED98200395356 /* MenuViewModel.swift in Sources */,
+				09BFF233265D6D4A00395356 /* SplashPresenterImpl.swift in Sources */,
 				09BFF1CA265C249000395356 /* AppDelegate.swift in Sources */,
+				09BFF28E2660159D00395356 /* HomeTabBarAssembly.swift in Sources */,
 				09BFF205265C258200395356 /* SplashViewController.swift in Sources */,
+				09BFF23D265D71BC00395356 /* SplashAssembly.swift in Sources */,
+				09BFF255265EBA3700395356 /* Utils.swift in Sources */,
 				09BFF22E265C393100395356 /* BaseVIPER.swift in Sources */,
+				09BFF24C265EB91200395356 /* RequestManager.swift in Sources */,
+				09BFF25E265EC43B00395356 /* SplashProviderImpl.swift in Sources */,
+				09BFF26F265ED2A900395356 /* SplashInteractorImpl.swift in Sources */,
+				09BFF2952660224200395356 /* MenuViewController.swift in Sources */,
+				09BFF238265D6EE700395356 /* SplashRouterImpl.swift in Sources */,
+				09BFF2A22660271100395356 /* TrainingOneViewController.swift in Sources */,
+				09BFF243265D730E00395356 /* ReuseIdentifier.swift in Sources */,
+				09BFF2852660155900395356 /* HomeTabBarController.swift in Sources */,
+				09BFF267265EC76E00395356 /* ResponseMenuModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +609,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CiceSports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -444,6 +618,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cice.co.iOS.CiceSports.CiceSports;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CiceSports/MenuLateral/CiceSports-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -454,6 +630,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CiceSports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,6 +639,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cice.co.iOS.CiceSports.CiceSports;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CiceSports/MenuLateral/CiceSports-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

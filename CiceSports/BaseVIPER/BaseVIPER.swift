@@ -39,14 +39,63 @@ class BaseViewController<P> : UIViewController{
 }
 
 // MARK: - BasePresenter
-class BasePresenter<V, R, I> {
+class BasePresenter<V, R> {
     
+    internal var viewController: V?
+    internal var router: R?
+    
+    convenience init(viewController: V, router: R? = nil){
+        self.init()
+        self.viewController = viewController
+        self.router = router
+    }
 }
 
-class BaseRouter<V, P>{
+
+// MARK: - BaseInteractor
+class BaseInteractor<P>{
     
+    internal var presenter: P?
+    
+    convenience init(presenter: P){
+        self.init()
+        self.presenter = presenter
+    }
 }
 
-class Interactor<P>{
 
+// MARK: - BaseRouter
+class BaseRouter<P>{
+    
+    internal var presenter: P?
+    internal var viewController: UIViewController?
+    
+    convenience init(presenter: P? = nil, view: UIViewController? = nil) {
+        self.init()
+        self.presenter = presenter
+        self.viewController = view
+    }
+    
+    internal func show (_ vc: UIViewController){
+        if let navigationController = viewController?.navigationController{
+            
+        }
+    }
+    
+    internal func present(_ vcToPresent: UIViewController, animated flag: Bool, completion: (() -> Swift.Void)? = nil){
+        if let navigationController = viewController?.navigationController{
+            navigationController.present(vcToPresent, animated: flag, completion: completion)
+            return
+        }
+        viewController?.present(vcToPresent, animated: flag, completion: completion)
+    }
+}
+
+
+// MARK: - BaseNavigationController
+class BaseNavigationController: UINavigationController{
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }
