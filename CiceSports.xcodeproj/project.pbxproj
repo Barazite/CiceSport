@@ -28,10 +28,27 @@
 		09BFF2852660155900395356 /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF2832660155900395356 /* HomeTabBarController.swift */; };
 		09BFF2862660155900395356 /* HomeTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF2842660155900395356 /* HomeTabBarController.xib */; };
 		09BFF28E2660159D00395356 /* HomeTabBarAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF28D2660159D00395356 /* HomeTabBarAssembly.swift */; };
-		09BFF2952660224200395356 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF2932660224200395356 /* MenuViewController.swift */; };
-		09BFF2962660224200395356 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF2942660224200395356 /* MenuViewController.xib */; };
-		09BFF2A22660271100395356 /* TrainingOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF2A02660271100395356 /* TrainingOneViewController.swift */; };
-		09BFF2A32660271100395356 /* TrainingOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF2A12660271100395356 /* TrainingOneViewController.xib */; };
+		09BFF2CB2661654200395356 /* TrainingTwoPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF2C82661654200395356 /* TrainingTwoPresenterImpl.swift */; };
+		09BFF2CC2661654200395356 /* TrainingTwoAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF2C42661654200395356 /* TrainingTwoAssembly.swift */; };
+		09BFF2CD2661654200395356 /* TrainingTwoInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF2C32661654200395356 /* TrainingTwoInteractorImpl.swift */; };
+		09BFF2CE2661654200395356 /* TrainingTwoProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF2C72661654200395356 /* TrainingTwoProviderImpl.swift */; };
+		09BFF2CF2661654200395356 /* TrainingTwoRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF2C52661654200395356 /* TrainingTwoRouterImpl.swift */; };
+		09BFF2E22661656F00395356 /* TrainingOnePresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF2E12661656F00395356 /* TrainingOnePresenterImpl.swift */; };
+		09BFF2E32661656F00395356 /* TrainingOneAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF2E02661656F00395356 /* TrainingOneAssembly.swift */; };
+		09BFF2E42661656F00395356 /* TrainingOneRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF2DC2661656E00395356 /* TrainingOneRouterImpl.swift */; };
+		09BFF2E62661656F00395356 /* TrainingOneProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF2DD2661656E00395356 /* TrainingOneProviderImpl.swift */; };
+		09BFF2E72661656F00395356 /* TrainingOneInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF2DB2661656E00395356 /* TrainingOneInteractorImpl.swift */; };
+		09BFF307266166C100395356 /* MenuRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF301266166C000395356 /* MenuRouterImpl.swift */; };
+		09BFF308266166C100395356 /* MenuInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF303266166C100395356 /* MenuInteractorImpl.swift */; };
+		09BFF309266166C100395356 /* MenuProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF306266166C100395356 /* MenuProviderImpl.swift */; };
+		09BFF30A266166C100395356 /* MenuAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF305266166C100395356 /* MenuAssembly.swift */; };
+		09BFF30C266166C100395356 /* MenuPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF304266166C100395356 /* MenuPresenterImpl.swift */; };
+		09BFF31826616DB100395356 /* TrainingOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF31626616DB100395356 /* TrainingOneViewController.swift */; };
+		09BFF31926616DB100395356 /* TrainingOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF31726616DB100395356 /* TrainingOneViewController.xib */; };
+		09BFF32226616DE300395356 /* TrainingTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF32026616DE300395356 /* TrainingTwoViewController.swift */; };
+		09BFF32326616DE300395356 /* TrainingTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF32126616DE300395356 /* TrainingTwoViewController.xib */; };
+		09BFF32C26616E1400395356 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF32A26616E1400395356 /* MenuViewController.swift */; };
+		09BFF32D26616E1400395356 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF32B26616E1400395356 /* MenuViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,10 +96,27 @@
 		09BFF2832660155900395356 /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
 		09BFF2842660155900395356 /* HomeTabBarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTabBarController.xib; sourceTree = "<group>"; };
 		09BFF28D2660159D00395356 /* HomeTabBarAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarAssembly.swift; sourceTree = "<group>"; };
-		09BFF2932660224200395356 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		09BFF2942660224200395356 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
-		09BFF2A02660271100395356 /* TrainingOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingOneViewController.swift; sourceTree = "<group>"; };
-		09BFF2A12660271100395356 /* TrainingOneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainingOneViewController.xib; sourceTree = "<group>"; };
+		09BFF2C32661654200395356 /* TrainingTwoInteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingTwoInteractorImpl.swift; sourceTree = "<group>"; };
+		09BFF2C42661654200395356 /* TrainingTwoAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingTwoAssembly.swift; sourceTree = "<group>"; };
+		09BFF2C52661654200395356 /* TrainingTwoRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingTwoRouterImpl.swift; sourceTree = "<group>"; };
+		09BFF2C72661654200395356 /* TrainingTwoProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingTwoProviderImpl.swift; sourceTree = "<group>"; };
+		09BFF2C82661654200395356 /* TrainingTwoPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingTwoPresenterImpl.swift; sourceTree = "<group>"; };
+		09BFF2DB2661656E00395356 /* TrainingOneInteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingOneInteractorImpl.swift; sourceTree = "<group>"; };
+		09BFF2DC2661656E00395356 /* TrainingOneRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingOneRouterImpl.swift; sourceTree = "<group>"; };
+		09BFF2DD2661656E00395356 /* TrainingOneProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingOneProviderImpl.swift; sourceTree = "<group>"; };
+		09BFF2E02661656F00395356 /* TrainingOneAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingOneAssembly.swift; sourceTree = "<group>"; };
+		09BFF2E12661656F00395356 /* TrainingOnePresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingOnePresenterImpl.swift; sourceTree = "<group>"; };
+		09BFF301266166C000395356 /* MenuRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRouterImpl.swift; sourceTree = "<group>"; };
+		09BFF303266166C100395356 /* MenuInteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInteractorImpl.swift; sourceTree = "<group>"; };
+		09BFF304266166C100395356 /* MenuPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenterImpl.swift; sourceTree = "<group>"; };
+		09BFF305266166C100395356 /* MenuAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAssembly.swift; sourceTree = "<group>"; };
+		09BFF306266166C100395356 /* MenuProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuProviderImpl.swift; sourceTree = "<group>"; };
+		09BFF31626616DB100395356 /* TrainingOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingOneViewController.swift; sourceTree = "<group>"; };
+		09BFF31726616DB100395356 /* TrainingOneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainingOneViewController.xib; sourceTree = "<group>"; };
+		09BFF32026616DE300395356 /* TrainingTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingTwoViewController.swift; sourceTree = "<group>"; };
+		09BFF32126616DE300395356 /* TrainingTwoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainingTwoViewController.xib; sourceTree = "<group>"; };
+		09BFF32A26616E1400395356 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		09BFF32B26616E1400395356 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,8 +294,13 @@
 		09BFF2922660222800395356 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				09BFF2932660224200395356 /* MenuViewController.swift */,
-				09BFF2942660224200395356 /* MenuViewController.xib */,
+				09BFF305266166C100395356 /* MenuAssembly.swift */,
+				09BFF303266166C100395356 /* MenuInteractorImpl.swift */,
+				09BFF304266166C100395356 /* MenuPresenterImpl.swift */,
+				09BFF306266166C100395356 /* MenuProviderImpl.swift */,
+				09BFF301266166C000395356 /* MenuRouterImpl.swift */,
+				09BFF32A26616E1400395356 /* MenuViewController.swift */,
+				09BFF32B26616E1400395356 /* MenuViewController.xib */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -278,8 +317,13 @@
 		09BFF29E266026D900395356 /* N1 */ = {
 			isa = PBXGroup;
 			children = (
-				09BFF2A02660271100395356 /* TrainingOneViewController.swift */,
-				09BFF2A12660271100395356 /* TrainingOneViewController.xib */,
+				09BFF2E02661656F00395356 /* TrainingOneAssembly.swift */,
+				09BFF2DB2661656E00395356 /* TrainingOneInteractorImpl.swift */,
+				09BFF2E12661656F00395356 /* TrainingOnePresenterImpl.swift */,
+				09BFF2DD2661656E00395356 /* TrainingOneProviderImpl.swift */,
+				09BFF2DC2661656E00395356 /* TrainingOneRouterImpl.swift */,
+				09BFF31626616DB100395356 /* TrainingOneViewController.swift */,
+				09BFF31726616DB100395356 /* TrainingOneViewController.xib */,
 			);
 			path = N1;
 			sourceTree = "<group>";
@@ -287,6 +331,13 @@
 		09BFF29F266026E300395356 /* N2 */ = {
 			isa = PBXGroup;
 			children = (
+				09BFF2C42661654200395356 /* TrainingTwoAssembly.swift */,
+				09BFF2C32661654200395356 /* TrainingTwoInteractorImpl.swift */,
+				09BFF2C82661654200395356 /* TrainingTwoPresenterImpl.swift */,
+				09BFF2C72661654200395356 /* TrainingTwoProviderImpl.swift */,
+				09BFF2C52661654200395356 /* TrainingTwoRouterImpl.swift */,
+				09BFF32026616DE300395356 /* TrainingTwoViewController.swift */,
+				09BFF32126616DE300395356 /* TrainingTwoViewController.xib */,
 			);
 			path = N2;
 			sourceTree = "<group>";
@@ -397,10 +448,11 @@
 			files = (
 				09BFF1D6265C249100395356 /* LaunchScreen.storyboard in Resources */,
 				09BFF206265C258200395356 /* SplashViewController.xib in Resources */,
-				09BFF2962660224200395356 /* MenuViewController.xib in Resources */,
 				09BFF2862660155900395356 /* HomeTabBarController.xib in Resources */,
+				09BFF32326616DE300395356 /* TrainingTwoViewController.xib in Resources */,
+				09BFF31926616DB100395356 /* TrainingOneViewController.xib in Resources */,
+				09BFF32D26616E1400395356 /* MenuViewController.xib in Resources */,
 				09BFF1D3265C249100395356 /* Assets.xcassets in Resources */,
-				09BFF2A32660271100395356 /* TrainingOneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,24 +477,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09BFF308266166C100395356 /* MenuInteractorImpl.swift in Sources */,
 				09BFF217265C315700395356 /* AppAssembly.swift in Sources */,
+				09BFF2E22661656F00395356 /* TrainingOnePresenterImpl.swift in Sources */,
+				09BFF309266166C100395356 /* MenuProviderImpl.swift in Sources */,
 				09BFF27E2660144100395356 /* SWRevealViewController .m in Sources */,
+				09BFF2E42661656F00395356 /* TrainingOneRouterImpl.swift in Sources */,
+				09BFF2E72661656F00395356 /* TrainingOneInteractorImpl.swift in Sources */,
 				09BFF276265ED98200395356 /* MenuViewModel.swift in Sources */,
 				09BFF233265D6D4A00395356 /* SplashPresenterImpl.swift in Sources */,
+				09BFF2E62661656F00395356 /* TrainingOneProviderImpl.swift in Sources */,
+				09BFF32226616DE300395356 /* TrainingTwoViewController.swift in Sources */,
 				09BFF1CA265C249000395356 /* AppDelegate.swift in Sources */,
+				09BFF2CB2661654200395356 /* TrainingTwoPresenterImpl.swift in Sources */,
+				09BFF2CF2661654200395356 /* TrainingTwoRouterImpl.swift in Sources */,
+				09BFF2E32661656F00395356 /* TrainingOneAssembly.swift in Sources */,
 				09BFF28E2660159D00395356 /* HomeTabBarAssembly.swift in Sources */,
 				09BFF205265C258200395356 /* SplashViewController.swift in Sources */,
+				09BFF307266166C100395356 /* MenuRouterImpl.swift in Sources */,
 				09BFF23D265D71BC00395356 /* SplashAssembly.swift in Sources */,
 				09BFF255265EBA3700395356 /* Utils.swift in Sources */,
+				09BFF31826616DB100395356 /* TrainingOneViewController.swift in Sources */,
 				09BFF22E265C393100395356 /* BaseVIPER.swift in Sources */,
+				09BFF30C266166C100395356 /* MenuPresenterImpl.swift in Sources */,
 				09BFF24C265EB91200395356 /* RequestManager.swift in Sources */,
 				09BFF25E265EC43B00395356 /* SplashProviderImpl.swift in Sources */,
 				09BFF26F265ED2A900395356 /* SplashInteractorImpl.swift in Sources */,
-				09BFF2952660224200395356 /* MenuViewController.swift in Sources */,
 				09BFF238265D6EE700395356 /* SplashRouterImpl.swift in Sources */,
-				09BFF2A22660271100395356 /* TrainingOneViewController.swift in Sources */,
+				09BFF2CD2661654200395356 /* TrainingTwoInteractorImpl.swift in Sources */,
+				09BFF2CE2661654200395356 /* TrainingTwoProviderImpl.swift in Sources */,
 				09BFF243265D730E00395356 /* ReuseIdentifier.swift in Sources */,
 				09BFF2852660155900395356 /* HomeTabBarController.swift in Sources */,
+				09BFF32C26616E1400395356 /* MenuViewController.swift in Sources */,
+				09BFF30A266166C100395356 /* MenuAssembly.swift in Sources */,
+				09BFF2CC2661654200395356 /* TrainingTwoAssembly.swift in Sources */,
 				09BFF267265EC76E00395356 /* ResponseMenuModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
