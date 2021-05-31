@@ -39,15 +39,17 @@ class BaseViewController<P> : UIViewController{
 }
 
 // MARK: - BasePresenter
-class BasePresenter<V, R> {
+class BasePresenter<V, R, I> {
     
     internal var viewController: V?
     internal var router: R?
+    internal var interactor: I?
     
-    convenience init(viewController: V, router: R? = nil){
+    convenience init(viewController: V, router: R? = nil, interactor: I? = nil){
         self.init()
         self.viewController = viewController
         self.router = router
+        self.interactor = interactor
     }
 }
 

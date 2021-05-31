@@ -12,9 +12,9 @@ protocol SplashPresenterProtocol{
     func showHomeTabBar()
 }
 
-class SplashPresenterImpl: BasePresenter<SplashViewControllerProtocol, SplashRouterProtocol> {
+class SplashPresenterImpl: BasePresenter<SplashViewControllerProtocol, SplashRouterProtocol, SplashInteractorProtocol> {
     
-    var interactor: SplashInteractorProtocol?
+    //var interactor: SplashInteractorProtocol? -> Quitamos esta linea porque la añadimos en la clase Base del Presenter
     var viewModel: [MenuResponse] = []
 }
 
@@ -25,7 +25,7 @@ extension SplashPresenterImpl: SplashPresenterProtocol{
             if let resultArraydDes = resultArray{
                 self?.viewModel.removeAll()
                 self?.viewModel = resultArraydDes
-                self?.viewController?.fetchDataFromPresent()
+                self?.viewController?.animateSplash()
             }
         }, failure: { (error) in
             print(error?.localizedDescription ?? "Error")

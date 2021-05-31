@@ -8,7 +8,7 @@
 import UIKit
 
 protocol SplashViewControllerProtocol{
-    func fetchDataFromPresent()
+    func animateSplash() //fetchDataFromPresenter en caso de que haya dado que mostrar
 }
 
 class SplashViewController: BaseViewController<SplashPresenterProtocol>,
@@ -41,7 +41,7 @@ class SplashViewController: BaseViewController<SplashPresenterProtocol>,
 }
 
 extension SplashViewController: SplashViewControllerProtocol {
-    func fetchDataFromPresent() {
+    func animateSplash() {
         viewAnimator = UIViewPropertyAnimator(duration: 1.0, curve: .easeInOut, animations: nil)
         viewAnimator.addAnimations {
             self.myImageSplash.transform = CGAffineTransform(scaleX: 0.7, y: 0.7)

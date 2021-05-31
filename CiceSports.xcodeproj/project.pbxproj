@@ -49,6 +49,10 @@
 		09BFF32326616DE300395356 /* TrainingTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF32126616DE300395356 /* TrainingTwoViewController.xib */; };
 		09BFF32C26616E1400395356 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF32A26616E1400395356 /* MenuViewController.swift */; };
 		09BFF32D26616E1400395356 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF32B26616E1400395356 /* MenuViewController.xib */; };
+		09BFF33426617BBE00395356 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF33226617BBE00395356 /* HeaderTableViewCell.swift */; };
+		09BFF33526617BBE00395356 /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF33326617BBE00395356 /* HeaderTableViewCell.xib */; };
+		09BFF33E26617FA100395356 /* BodyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF33C26617FA100395356 /* BodyTableViewCell.swift */; };
+		09BFF33F26617FA100395356 /* BodyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF33D26617FA100395356 /* BodyTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +121,10 @@
 		09BFF32126616DE300395356 /* TrainingTwoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainingTwoViewController.xib; sourceTree = "<group>"; };
 		09BFF32A26616E1400395356 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		09BFF32B26616E1400395356 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		09BFF33226617BBE00395356 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		09BFF33326617BBE00395356 /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
+		09BFF33C26617FA100395356 /* BodyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTableViewCell.swift; sourceTree = "<group>"; };
+		09BFF33D26617FA100395356 /* BodyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BodyTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +302,7 @@
 		09BFF2922660222800395356 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				09BFF33126617B7600395356 /* Components */,
 				09BFF305266166C100395356 /* MenuAssembly.swift */,
 				09BFF303266166C100395356 /* MenuInteractorImpl.swift */,
 				09BFF304266166C100395356 /* MenuPresenterImpl.swift */,
@@ -340,6 +349,17 @@
 				09BFF32126616DE300395356 /* TrainingTwoViewController.xib */,
 			);
 			path = N2;
+			sourceTree = "<group>";
+		};
+		09BFF33126617B7600395356 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				09BFF33226617BBE00395356 /* HeaderTableViewCell.swift */,
+				09BFF33326617BBE00395356 /* HeaderTableViewCell.xib */,
+				09BFF33C26617FA100395356 /* BodyTableViewCell.swift */,
+				09BFF33D26617FA100395356 /* BodyTableViewCell.xib */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,6 +470,8 @@
 				09BFF206265C258200395356 /* SplashViewController.xib in Resources */,
 				09BFF2862660155900395356 /* HomeTabBarController.xib in Resources */,
 				09BFF32326616DE300395356 /* TrainingTwoViewController.xib in Resources */,
+				09BFF33526617BBE00395356 /* HeaderTableViewCell.xib in Resources */,
+				09BFF33F26617FA100395356 /* BodyTableViewCell.xib in Resources */,
 				09BFF31926616DB100395356 /* TrainingOneViewController.xib in Resources */,
 				09BFF32D26616E1400395356 /* MenuViewController.xib in Resources */,
 				09BFF1D3265C249100395356 /* Assets.xcassets in Resources */,
@@ -482,6 +504,7 @@
 				09BFF2E22661656F00395356 /* TrainingOnePresenterImpl.swift in Sources */,
 				09BFF309266166C100395356 /* MenuProviderImpl.swift in Sources */,
 				09BFF27E2660144100395356 /* SWRevealViewController .m in Sources */,
+				09BFF33E26617FA100395356 /* BodyTableViewCell.swift in Sources */,
 				09BFF2E42661656F00395356 /* TrainingOneRouterImpl.swift in Sources */,
 				09BFF2E72661656F00395356 /* TrainingOneInteractorImpl.swift in Sources */,
 				09BFF276265ED98200395356 /* MenuViewModel.swift in Sources */,
@@ -505,6 +528,7 @@
 				09BFF26F265ED2A900395356 /* SplashInteractorImpl.swift in Sources */,
 				09BFF238265D6EE700395356 /* SplashRouterImpl.swift in Sources */,
 				09BFF2CD2661654200395356 /* TrainingTwoInteractorImpl.swift in Sources */,
+				09BFF33426617BBE00395356 /* HeaderTableViewCell.swift in Sources */,
 				09BFF2CE2661654200395356 /* TrainingTwoProviderImpl.swift in Sources */,
 				09BFF243265D730E00395356 /* ReuseIdentifier.swift in Sources */,
 				09BFF2852660155900395356 /* HomeTabBarController.swift in Sources */,

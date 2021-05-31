@@ -26,10 +26,10 @@ final public class HomeTabBarAssembly {
         
         switch viewController.selectedIndex{
         case 0:
-            "Nivel 1"
+            print ("Nivel 1")
             
         default:
-            "Nivel 2"
+            print ("Nivel 2")
         }
         
         return viewController
