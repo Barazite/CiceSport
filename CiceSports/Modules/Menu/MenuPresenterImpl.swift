@@ -9,6 +9,7 @@ import Foundation
 protocol MenuPresenterProtocol {
     func getNumberOfRowInSections() -> Int
     func getInformationObject(indexPath: Int) -> Menu?
+    func showWebSiteGoogle()
 }
 
 class MenuPresenterImpl: BasePresenter<MenuViewControllerProtocol, MenuRouterProtocol, MenuInteractorProtocol> {
@@ -28,5 +29,8 @@ class MenuPresenterImpl: BasePresenter<MenuViewControllerProtocol, MenuRouterPro
 
 extension MenuPresenterImpl: MenuPresenterProtocol {
     
+    func showWebSiteGoogle() {
+        self.router?.showWebSiteInRouter()
+    }
   
 }

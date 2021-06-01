@@ -38,6 +38,6 @@ extension BodyTableViewCell: BodyTableViewCellProtocol {
     internal func configCell(data: Menu) {
         self.data = data
         self.myNameAvataLBL.text = data.literal
-        //self.myImageAvatarCell.image = 
+        self.myImageAvatarCell.image = showImageMenuWithName(imageMenu: data)
     }
 }

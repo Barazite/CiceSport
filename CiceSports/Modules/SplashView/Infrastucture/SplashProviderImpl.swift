@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 protocol SplashProviderProtocol {
-    func fetchMenu(completionHandler: @escaping (Result <ResponseMenuModel, ApiError>) -> ())
+    func fetchMenu(completionHandler: @escaping (Result <ResponseMenuModel, NetworkingError>) -> ())
 }
 
 
@@ -18,7 +18,7 @@ class SplashProviderImpl: SplashProviderProtocol{
     let provider: RequestManagerProtocol = RequestManager()
     var cancellable: Set<AnyCancellable> = []
     
-    internal func fetchMenu(completionHandler: @escaping (Result <ResponseMenuModel, ApiError>) -> ()) {
+    internal func fetchMenu(completionHandler: @escaping (Result <ResponseMenuModel, NetworkingError>) -> ()) {
         
         let request = RequestDTO(params: nil, method: .get, endpoint: URLEndpoint.baseUrl+URLEndpoint.endpointMenu )
         

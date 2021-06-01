@@ -85,4 +85,18 @@ extension MenuViewController:  UITableViewDelegate, UITableViewDataSource{
             return 44
         }
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        switch indexPath.section {
+        case 0:
+            print("No hago nada")
+        default:
+            switch indexPath.row {
+            case 0:
+                self.presenter?.showWebSiteGoogle()
+            default:
+                print("No hago nada en esta seleccion del menu")
+            }
+        }
+    }
 }

@@ -10,9 +10,9 @@ protocol TrainingTwoPresenterProtocol {
    
 }
 
-class TrainingTwoPresenterImpl: BasePresenter<TrainingTwoViewControllerProtocol, TrainingTwoRouterProtocol> {
+class TrainingTwoPresenterImpl: BasePresenter<TrainingTwoViewControllerProtocol, TrainingTwoRouterProtocol, TrainingTwoInteractorProtocol> {
     
-    var interactor: TrainingTwoInteractorProtocol?
+    //var interactor: TrainingTwoInteractorProtocol?
     
 }
 

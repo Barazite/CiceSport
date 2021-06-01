@@ -53,6 +53,15 @@
 		09BFF33526617BBE00395356 /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF33326617BBE00395356 /* HeaderTableViewCell.xib */; };
 		09BFF33E26617FA100395356 /* BodyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF33C26617FA100395356 /* BodyTableViewCell.swift */; };
 		09BFF33F26617FA100395356 /* BodyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF33D26617FA100395356 /* BodyTableViewCell.xib */; };
+		09BFF344266560EE00395356 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF343266560EE00395356 /* CoreDataStack.swift */; };
+		09BFF3492665702C00395356 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF3482665702C00395356 /* NetworkError.swift */; };
+		09BFF35A2665768600395356 /* GenericWebViewAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF3592665768600395356 /* GenericWebViewAssembly.swift */; };
+		09BFF35B2665768600395356 /* GenericWebViewProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF3542665768600395356 /* GenericWebViewProviderImpl.swift */; };
+		09BFF35C2665768600395356 /* GenericWebViewRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF3582665768600395356 /* GenericWebViewRouterImpl.swift */; };
+		09BFF35E2665768600395356 /* GenericWebViewPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF3572665768600395356 /* GenericWebViewPresenterImpl.swift */; };
+		09BFF35F2665768600395356 /* GenericWebViewInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF3532665768500395356 /* GenericWebViewInteractorImpl.swift */; };
+		09BFF36B266576C200395356 /* GenericWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF369266576C200395356 /* GenericWebViewController.swift */; };
+		09BFF36C266576C200395356 /* GenericWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF36A266576C200395356 /* GenericWebViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +134,15 @@
 		09BFF33326617BBE00395356 /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
 		09BFF33C26617FA100395356 /* BodyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTableViewCell.swift; sourceTree = "<group>"; };
 		09BFF33D26617FA100395356 /* BodyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BodyTableViewCell.xib; sourceTree = "<group>"; };
+		09BFF343266560EE00395356 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		09BFF3482665702C00395356 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		09BFF3532665768500395356 /* GenericWebViewInteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWebViewInteractorImpl.swift; sourceTree = "<group>"; };
+		09BFF3542665768600395356 /* GenericWebViewProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWebViewProviderImpl.swift; sourceTree = "<group>"; };
+		09BFF3572665768600395356 /* GenericWebViewPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWebViewPresenterImpl.swift; sourceTree = "<group>"; };
+		09BFF3582665768600395356 /* GenericWebViewRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWebViewRouterImpl.swift; sourceTree = "<group>"; };
+		09BFF3592665768600395356 /* GenericWebViewAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWebViewAssembly.swift; sourceTree = "<group>"; };
+		09BFF369266576C200395356 /* GenericWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWebViewController.swift; sourceTree = "<group>"; };
+		09BFF36A266576C200395356 /* GenericWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenericWebViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +209,7 @@
 		09BFF202265C253400395356 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				09BFF34D2665764400395356 /* WebView */,
 				09BFF29D2660266D00395356 /* Training */,
 				09BFF2922660222800395356 /* Menu */,
 				09BFF2822660150400395356 /* Home */,
@@ -240,7 +259,9 @@
 		09BFF24A265EB8D400395356 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				09BFF3482665702C00395356 /* NetworkError.swift */,
 				09BFF24B265EB91200395356 /* RequestManager.swift */,
+				09BFF343266560EE00395356 /* CoreDataStack.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -362,6 +383,20 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		09BFF34D2665764400395356 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				09BFF3592665768600395356 /* GenericWebViewAssembly.swift */,
+				09BFF3532665768500395356 /* GenericWebViewInteractorImpl.swift */,
+				09BFF3572665768600395356 /* GenericWebViewPresenterImpl.swift */,
+				09BFF3542665768600395356 /* GenericWebViewProviderImpl.swift */,
+				09BFF3582665768600395356 /* GenericWebViewRouterImpl.swift */,
+				09BFF369266576C200395356 /* GenericWebViewController.swift */,
+				09BFF36A266576C200395356 /* GenericWebViewController.xib */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -473,6 +508,7 @@
 				09BFF33526617BBE00395356 /* HeaderTableViewCell.xib in Resources */,
 				09BFF33F26617FA100395356 /* BodyTableViewCell.xib in Resources */,
 				09BFF31926616DB100395356 /* TrainingOneViewController.xib in Resources */,
+				09BFF36C266576C200395356 /* GenericWebViewController.xib in Resources */,
 				09BFF32D26616E1400395356 /* MenuViewController.xib in Resources */,
 				09BFF1D3265C249100395356 /* Assets.xcassets in Resources */,
 			);
@@ -499,6 +535,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09BFF35C2665768600395356 /* GenericWebViewRouterImpl.swift in Sources */,
 				09BFF308266166C100395356 /* MenuInteractorImpl.swift in Sources */,
 				09BFF217265C315700395356 /* AppAssembly.swift in Sources */,
 				09BFF2E22661656F00395356 /* TrainingOnePresenterImpl.swift in Sources */,
@@ -511,7 +548,10 @@
 				09BFF233265D6D4A00395356 /* SplashPresenterImpl.swift in Sources */,
 				09BFF2E62661656F00395356 /* TrainingOneProviderImpl.swift in Sources */,
 				09BFF32226616DE300395356 /* TrainingTwoViewController.swift in Sources */,
+				09BFF35F2665768600395356 /* GenericWebViewInteractorImpl.swift in Sources */,
 				09BFF1CA265C249000395356 /* AppDelegate.swift in Sources */,
+				09BFF36B266576C200395356 /* GenericWebViewController.swift in Sources */,
+				09BFF35A2665768600395356 /* GenericWebViewAssembly.swift in Sources */,
 				09BFF2CB2661654200395356 /* TrainingTwoPresenterImpl.swift in Sources */,
 				09BFF2CF2661654200395356 /* TrainingTwoRouterImpl.swift in Sources */,
 				09BFF2E32661656F00395356 /* TrainingOneAssembly.swift in Sources */,
@@ -521,12 +561,15 @@
 				09BFF23D265D71BC00395356 /* SplashAssembly.swift in Sources */,
 				09BFF255265EBA3700395356 /* Utils.swift in Sources */,
 				09BFF31826616DB100395356 /* TrainingOneViewController.swift in Sources */,
+				09BFF35B2665768600395356 /* GenericWebViewProviderImpl.swift in Sources */,
 				09BFF22E265C393100395356 /* BaseVIPER.swift in Sources */,
 				09BFF30C266166C100395356 /* MenuPresenterImpl.swift in Sources */,
 				09BFF24C265EB91200395356 /* RequestManager.swift in Sources */,
 				09BFF25E265EC43B00395356 /* SplashProviderImpl.swift in Sources */,
 				09BFF26F265ED2A900395356 /* SplashInteractorImpl.swift in Sources */,
+				09BFF344266560EE00395356 /* CoreDataStack.swift in Sources */,
 				09BFF238265D6EE700395356 /* SplashRouterImpl.swift in Sources */,
+				09BFF35E2665768600395356 /* GenericWebViewPresenterImpl.swift in Sources */,
 				09BFF2CD2661654200395356 /* TrainingTwoInteractorImpl.swift in Sources */,
 				09BFF33426617BBE00395356 /* HeaderTableViewCell.swift in Sources */,
 				09BFF2CE2661654200395356 /* TrainingTwoProviderImpl.swift in Sources */,
@@ -534,6 +577,7 @@
 				09BFF2852660155900395356 /* HomeTabBarController.swift in Sources */,
 				09BFF32C26616E1400395356 /* MenuViewController.swift in Sources */,
 				09BFF30A266166C100395356 /* MenuAssembly.swift in Sources */,
+				09BFF3492665702C00395356 /* NetworkError.swift in Sources */,
 				09BFF2CC2661654200395356 /* TrainingTwoAssembly.swift in Sources */,
 				09BFF267265EC76E00395356 /* ResponseMenuModel.swift in Sources */,
 			);
