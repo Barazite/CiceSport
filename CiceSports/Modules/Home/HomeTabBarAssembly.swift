@@ -24,13 +24,13 @@ final public class HomeTabBarAssembly {
         
         viewController.viewControllers = [oneViewController, twoViewController]
         
-        switch viewController.selectedIndex{
+        /*switch viewController.selectedIndex{
         case 0:
             print ("Nivel 1")
             
         default:
             print ("Nivel 2")
-        }
+        }*/
         
         return viewController
     }

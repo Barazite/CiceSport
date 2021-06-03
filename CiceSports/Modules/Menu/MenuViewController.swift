@@ -20,6 +20,7 @@ class MenuViewController: BaseViewController<MenuPresenterProtocol>, ReuseIdenti
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupTableView()
+        self.presenter?.fetchDataFromHeroku()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -94,6 +95,8 @@ extension MenuViewController:  UITableViewDelegate, UITableViewDataSource{
             switch indexPath.row {
             case 0:
                 self.presenter?.showWebSiteGoogle()
+            case 3:
+                self.presenter?.navigationToConsejos()
             default:
                 print("No hago nada en esta seleccion del menu")
             }
