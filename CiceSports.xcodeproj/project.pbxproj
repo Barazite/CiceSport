@@ -3,10 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0974F2EF266A994200697B89 /* TrainingGenericCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974F2ED266A994200697B89 /* TrainingGenericCell.swift */; };
+		0974F2F0266A994200697B89 /* TrainingGenericCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0974F2EE266A994200697B89 /* TrainingGenericCell.xib */; };
+		0974F300266AA8C600697B89 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 0974F2FF266AA8C600697B89 /* Kingfisher */; };
+		0974F309266AA9C100697B89 /* PKHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 0974F308266AA9C100697B89 /* PKHUD */; };
+		0974F31E266AB9A500697B89 /* WebViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974F31D266AB9A500697B89 /* WebViewManager.swift */; };
+		0974F323266ABA0400697B89 /* WebKitPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974F322266ABA0400697B89 /* WebKitPresenterProtocol.swift */; };
+		0974F32C266D585A00697B89 /* DetallesTrainingAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974F32B266D585A00697B89 /* DetallesTrainingAssembly.swift */; };
+		0974F331266D586C00697B89 /* DetallesTrainingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974F330266D586C00697B89 /* DetallesTrainingPresenter.swift */; };
+		0974F337266D590300697B89 /* DetallesTrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974F335266D590300697B89 /* DetallesTrainingViewController.swift */; };
+		0974F338266D590300697B89 /* DetallesTrainingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0974F336266D590300697B89 /* DetallesTrainingViewController.xib */; };
+		0974F343266D6FA500697B89 /* TrainingDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974F341266D6FA500697B89 /* TrainingDescriptionCell.swift */; };
+		0974F344266D6FA500697B89 /* TrainingDescriptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0974F342266D6FA500697B89 /* TrainingDescriptionCell.xib */; };
+		0974F34A266D755900697B89 /* TrainingVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974F348266D755900697B89 /* TrainingVideoCell.swift */; };
+		0974F34B266D755900697B89 /* TrainingVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0974F349266D755900697B89 /* TrainingVideoCell.xib */; };
 		09BFF1CA265C249000395356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF1C9265C249000395356 /* AppDelegate.swift */; };
 		09BFF1D3265C249100395356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF1D2265C249100395356 /* Assets.xcassets */; };
 		09BFF1D6265C249100395356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF1D4265C249100395356 /* LaunchScreen.storyboard */; };
@@ -82,6 +96,13 @@
 		09BFF3E82668017E00395356 /* ConsejosGeneralesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF3E62668017E00395356 /* ConsejosGeneralesCell.xib */; };
 		09BFF3ED266801CC00395356 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF3EC266801CC00395356 /* BaseTableViewCell.swift */; };
 		09BFF3F2266808F500395356 /* ConsejosGeneralesDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF3F1266808F500395356 /* ConsejosGeneralesDrawer.swift */; };
+		09BFF3F926694C0900395356 /* DetalleConsejosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF3F726694C0900395356 /* DetalleConsejosViewController.swift */; };
+		09BFF3FA26694C0900395356 /* DetalleConsejosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF3F826694C0900395356 /* DetalleConsejosViewController.xib */; };
+		09BFF3FF26694C1B00395356 /* DetalleConsejosAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF3FE26694C1B00395356 /* DetalleConsejosAssembly.swift */; };
+		09BFF40426694C7900395356 /* DetalleConsejosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF40326694C7900395356 /* DetalleConsejosPresenter.swift */; };
+		09BFF40B2669545700395356 /* DetalleConsejoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF4092669545700395356 /* DetalleConsejoTableViewCell.swift */; };
+		09BFF40C2669545700395356 /* DetalleConsejoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF40A2669545700395356 /* DetalleConsejoTableViewCell.xib */; };
+		09BFF41226695DC200395356 /* EntrenamientosResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF41126695DC200395356 /* EntrenamientosResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,13 +123,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09BFF1C6265C249000395356 /* CiceSports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CiceSports.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0974F2ED266A994200697B89 /* TrainingGenericCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingGenericCell.swift; sourceTree = "<group>"; };
+		0974F2EE266A994200697B89 /* TrainingGenericCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainingGenericCell.xib; sourceTree = "<group>"; };
+		0974F313266AAEC500697B89 /* CiceSports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CiceSports.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0974F31D266AB9A500697B89 /* WebViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewManager.swift; sourceTree = "<group>"; };
+		0974F322266ABA0400697B89 /* WebKitPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitPresenterProtocol.swift; sourceTree = "<group>"; };
+		0974F32B266D585A00697B89 /* DetallesTrainingAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesTrainingAssembly.swift; sourceTree = "<group>"; };
+		0974F330266D586C00697B89 /* DetallesTrainingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesTrainingPresenter.swift; sourceTree = "<group>"; };
+		0974F335266D590300697B89 /* DetallesTrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesTrainingViewController.swift; sourceTree = "<group>"; };
+		0974F336266D590300697B89 /* DetallesTrainingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetallesTrainingViewController.xib; sourceTree = "<group>"; };
+		0974F33F266D67BA00697B89 /* CiceSportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiceSportsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0974F340266D67BA00697B89 /* CiceSportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiceSportsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0974F341266D6FA500697B89 /* TrainingDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingDescriptionCell.swift; sourceTree = "<group>"; };
+		0974F342266D6FA500697B89 /* TrainingDescriptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainingDescriptionCell.xib; sourceTree = "<group>"; };
+		0974F348266D755900697B89 /* TrainingVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingVideoCell.swift; sourceTree = "<group>"; };
+		0974F349266D755900697B89 /* TrainingVideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainingVideoCell.xib; sourceTree = "<group>"; };
 		09BFF1C9265C249000395356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09BFF1D2265C249100395356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09BFF1D5265C249100395356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09BFF1D7265C249100395356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09BFF1DC265C249200395356 /* CiceSportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiceSportsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		09BFF1E7265C249200395356 /* CiceSportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiceSportsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09BFF203265C258200395356 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		09BFF204265C258200395356 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
 		09BFF216265C315700395356 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
@@ -184,6 +217,13 @@
 		09BFF3E62668017E00395356 /* ConsejosGeneralesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConsejosGeneralesCell.xib; sourceTree = "<group>"; };
 		09BFF3EC266801CC00395356 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 		09BFF3F1266808F500395356 /* ConsejosGeneralesDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsejosGeneralesDrawer.swift; sourceTree = "<group>"; };
+		09BFF3F726694C0900395356 /* DetalleConsejosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleConsejosViewController.swift; sourceTree = "<group>"; };
+		09BFF3F826694C0900395356 /* DetalleConsejosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetalleConsejosViewController.xib; sourceTree = "<group>"; };
+		09BFF3FE26694C1B00395356 /* DetalleConsejosAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleConsejosAssembly.swift; sourceTree = "<group>"; };
+		09BFF40326694C7900395356 /* DetalleConsejosPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleConsejosPresenter.swift; sourceTree = "<group>"; };
+		09BFF4092669545700395356 /* DetalleConsejoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleConsejoTableViewCell.swift; sourceTree = "<group>"; };
+		09BFF40A2669545700395356 /* DetalleConsejoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetalleConsejoTableViewCell.xib; sourceTree = "<group>"; };
+		09BFF41126695DC200395356 /* EntrenamientosResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrenamientosResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +231,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0974F309266AA9C100697B89 /* PKHUD in Frameworks */,
+				0974F300266AA8C600697B89 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,22 +253,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0974F2EC266A98E100697B89 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0974F2ED266A994200697B89 /* TrainingGenericCell.swift */,
+				0974F2EE266A994200697B89 /* TrainingGenericCell.xib */,
+				0974F341266D6FA500697B89 /* TrainingDescriptionCell.swift */,
+				0974F342266D6FA500697B89 /* TrainingDescriptionCell.xib */,
+				0974F348266D755900697B89 /* TrainingVideoCell.swift */,
+				0974F349266D755900697B89 /* TrainingVideoCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0974F31C266AB98700697B89 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				0974F31D266AB9A500697B89 /* WebViewManager.swift */,
+				0974F322266ABA0400697B89 /* WebKitPresenterProtocol.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		0974F32A266D583100697B89 /* DetallesTraining */ = {
+			isa = PBXGroup;
+			children = (
+				0974F32B266D585A00697B89 /* DetallesTrainingAssembly.swift */,
+				0974F330266D586C00697B89 /* DetallesTrainingPresenter.swift */,
+				0974F335266D590300697B89 /* DetallesTrainingViewController.swift */,
+				0974F336266D590300697B89 /* DetallesTrainingViewController.xib */,
+			);
+			path = DetallesTraining;
+			sourceTree = "<group>";
+		};
 		09BFF1BD265C248F00395356 = {
 			isa = PBXGroup;
 			children = (
 				09BFF1C8265C249000395356 /* CiceSports */,
-				09BFF1C7265C249000395356 /* Products */,
+				0974F313266AAEC500697B89 /* CiceSports.app */,
+				0974F33F266D67BA00697B89 /* CiceSportsTests.xctest */,
+				0974F340266D67BA00697B89 /* CiceSportsUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		09BFF1C7265C249000395356 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				09BFF1C6265C249000395356 /* CiceSports.app */,
-				09BFF1DC265C249200395356 /* CiceSportsTests.xctest */,
-				09BFF1E7265C249200395356 /* CiceSportsUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		09BFF1C8265C249000395356 /* CiceSports */ = {
@@ -304,6 +371,7 @@
 		09BFF24A265EB8D400395356 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				0974F31C266AB98700697B89 /* WebView */,
 				09BFF3D42667F71900395356 /* TableView */,
 				09BFF3482665702C00395356 /* NetworkError.swift */,
 				09BFF24B265EB91200395356 /* RequestManager.swift */,
@@ -385,6 +453,8 @@
 		09BFF29D2660266D00395356 /* Training */ = {
 			isa = PBXGroup;
 			children = (
+				0974F32A266D583100697B89 /* DetallesTraining */,
+				0974F2EC266A98E100697B89 /* Cell */,
 				09BFF29F266026E300395356 /* N2 */,
 				09BFF29E266026D900395356 /* N1 */,
 			);
@@ -394,6 +464,7 @@
 		09BFF29E266026D900395356 /* N1 */ = {
 			isa = PBXGroup;
 			children = (
+				09BFF41026695DAB00395356 /* ServerModel */,
 				09BFF2E02661656F00395356 /* TrainingOneAssembly.swift */,
 				09BFF2DB2661656E00395356 /* TrainingOneInteractorImpl.swift */,
 				09BFF2E12661656F00395356 /* TrainingOnePresenterImpl.swift */,
@@ -473,6 +544,7 @@
 		09BFF3A62666BBB800395356 /* Consejos */ = {
 			isa = PBXGroup;
 			children = (
+				09BFF3F626694BDA00395356 /* DetalleConsejos */,
 				09BFF3E42668013700395356 /* Cell */,
 				09BFF3BC2666BD1400395356 /* ConsejosInteractorImpl.swift */,
 				09BFF3BB2666BD1400395356 /* ConsejosPresenterImpl.swift */,
@@ -530,6 +602,35 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		09BFF3F626694BDA00395356 /* DetalleConsejos */ = {
+			isa = PBXGroup;
+			children = (
+				09BFF4082669543100395356 /* Cell */,
+				09BFF3F726694C0900395356 /* DetalleConsejosViewController.swift */,
+				09BFF3F826694C0900395356 /* DetalleConsejosViewController.xib */,
+				09BFF3FE26694C1B00395356 /* DetalleConsejosAssembly.swift */,
+				09BFF40326694C7900395356 /* DetalleConsejosPresenter.swift */,
+			);
+			path = DetalleConsejos;
+			sourceTree = "<group>";
+		};
+		09BFF4082669543100395356 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				09BFF4092669545700395356 /* DetalleConsejoTableViewCell.swift */,
+				09BFF40A2669545700395356 /* DetalleConsejoTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		09BFF41026695DAB00395356 /* ServerModel */ = {
+			isa = PBXGroup;
+			children = (
+				09BFF41126695DC200395356 /* EntrenamientosResponseModel.swift */,
+			);
+			path = ServerModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -546,8 +647,12 @@
 			dependencies = (
 			);
 			name = CiceSports;
+			packageProductDependencies = (
+				0974F2FF266AA8C600697B89 /* Kingfisher */,
+				0974F308266AA9C100697B89 /* PKHUD */,
+			);
 			productName = CiceSports;
-			productReference = 09BFF1C6265C249000395356 /* CiceSports.app */;
+			productReference = 0974F313266AAEC500697B89 /* CiceSports.app */;
 			productType = "com.apple.product-type.application";
 		};
 		09BFF1DB265C249200395356 /* CiceSportsTests */ = {
@@ -565,7 +670,7 @@
 			);
 			name = CiceSportsTests;
 			productName = CiceSportsTests;
-			productReference = 09BFF1DC265C249200395356 /* CiceSportsTests.xctest */;
+			productReference = 0974F33F266D67BA00697B89 /* CiceSportsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		09BFF1E6265C249200395356 /* CiceSportsUITests */ = {
@@ -583,7 +688,7 @@
 			);
 			name = CiceSportsUITests;
 			productName = CiceSportsUITests;
-			productReference = 09BFF1E7265C249200395356 /* CiceSportsUITests.xctest */;
+			productReference = 0974F340266D67BA00697B89 /* CiceSportsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -619,7 +724,11 @@
 				es,
 			);
 			mainGroup = 09BFF1BD265C248F00395356;
-			productRefGroup = 09BFF1C7265C249000395356 /* Products */;
+			packageReferences = (
+				0974F2FE266AA8C600697B89 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				0974F307266AA9C100697B89 /* XCRemoteSwiftPackageReference "PKHUD" */,
+			);
+			productRefGroup = 09BFF1BD265C248F00395356;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -635,20 +744,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0974F344266D6FA500697B89 /* TrainingDescriptionCell.xib in Resources */,
 				09BFF1D6265C249100395356 /* LaunchScreen.storyboard in Resources */,
 				09BFF206265C258200395356 /* SplashViewController.xib in Resources */,
 				09BFF37B2666A46500395356 /* Localizable.strings in Resources */,
+				09BFF3FA26694C0900395356 /* DetalleConsejosViewController.xib in Resources */,
 				09BFF2862660155900395356 /* HomeTabBarController.xib in Resources */,
 				09BFF3C92666BD3800395356 /* ConsejosViewController.xib in Resources */,
+				0974F338266D590300697B89 /* DetallesTrainingViewController.xib in Resources */,
 				09BFF3A22666B9D800395356 /* GenericWebViewViewController.xib in Resources */,
 				09BFF3E82668017E00395356 /* ConsejosGeneralesCell.xib in Resources */,
 				09BFF32326616DE300395356 /* TrainingTwoViewController.xib in Resources */,
 				09BFF33526617BBE00395356 /* HeaderTableViewCell.xib in Resources */,
 				09BFF33F26617FA100395356 /* BodyTableViewCell.xib in Resources */,
+				0974F34B266D755900697B89 /* TrainingVideoCell.xib in Resources */,
 				09BFF31926616DB100395356 /* TrainingOneViewController.xib in Resources */,
+				0974F2F0266A994200697B89 /* TrainingGenericCell.xib in Resources */,
 				09BFF32D26616E1400395356 /* MenuViewController.xib in Resources */,
 				09BFF1D3265C249100395356 /* Assets.xcassets in Resources */,
 				09BFF38F2666A7A300395356 /* AlertDefaultViewController.xib in Resources */,
+				09BFF40C2669545700395356 /* DetalleConsejoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,6 +791,7 @@
 				09BFF35C2665768600395356 /* GenericWebViewRouterImpl.swift in Sources */,
 				09BFF308266166C100395356 /* MenuInteractorImpl.swift in Sources */,
 				09BFF217265C315700395356 /* AppAssembly.swift in Sources */,
+				0974F31E266AB9A500697B89 /* WebViewManager.swift in Sources */,
 				09BFF38E2666A7A300395356 /* AlertDefaultViewController.swift in Sources */,
 				09BFF2E22661656F00395356 /* TrainingOnePresenterImpl.swift in Sources */,
 				09BFF309266166C100395356 /* MenuProviderImpl.swift in Sources */,
@@ -686,13 +802,18 @@
 				09BFF2E72661656F00395356 /* TrainingOneInteractorImpl.swift in Sources */,
 				09BFF276265ED98200395356 /* MenuViewModel.swift in Sources */,
 				09BFF233265D6D4A00395356 /* SplashPresenterImpl.swift in Sources */,
+				09BFF40B2669545700395356 /* DetalleConsejoTableViewCell.swift in Sources */,
 				09BFF3F2266808F500395356 /* ConsejosGeneralesDrawer.swift in Sources */,
 				09BFF3862666A5A700395356 /* LocalizedKeys.swift in Sources */,
 				09BFF2E62661656F00395356 /* TrainingOneProviderImpl.swift in Sources */,
 				09BFF3E72668017E00395356 /* ConsejosGeneralesCell.swift in Sources */,
 				09BFF32226616DE300395356 /* TrainingTwoViewController.swift in Sources */,
+				0974F2EF266A994200697B89 /* TrainingGenericCell.swift in Sources */,
 				09BFF35F2665768600395356 /* GenericWebViewInteractorImpl.swift in Sources */,
+				09BFF41226695DC200395356 /* EntrenamientosResponseModel.swift in Sources */,
 				09BFF1CA265C249000395356 /* AppDelegate.swift in Sources */,
+				0974F337266D590300697B89 /* DetallesTrainingViewController.swift in Sources */,
+				0974F34A266D755900697B89 /* TrainingVideoCell.swift in Sources */,
 				09BFF35A2665768600395356 /* GenericWebViewAssembly.swift in Sources */,
 				09BFF2CB2661654200395356 /* TrainingTwoPresenterImpl.swift in Sources */,
 				09BFF2CF2661654200395356 /* TrainingTwoRouterImpl.swift in Sources */,
@@ -709,17 +830,22 @@
 				09BFF3BF2666BD1400395356 /* ConsejosPresenterImpl.swift in Sources */,
 				09BFF3D62667F73F00395356 /* TableViewManager.swift in Sources */,
 				09BFF35B2665768600395356 /* GenericWebViewProviderImpl.swift in Sources */,
+				09BFF3F926694C0900395356 /* DetalleConsejosViewController.swift in Sources */,
 				09BFF22E265C393100395356 /* BaseVIPER.swift in Sources */,
 				09BFF3E02667FF3200395356 /* FactoryCell.swift in Sources */,
 				09BFF30C266166C100395356 /* MenuPresenterImpl.swift in Sources */,
 				09BFF3982666AEE600395356 /* AlertDefaultViewModel.swift in Sources */,
 				09BFF24C265EB91200395356 /* RequestManager.swift in Sources */,
 				09BFF25E265EC43B00395356 /* SplashProviderImpl.swift in Sources */,
+				0974F32C266D585A00697B89 /* DetallesTrainingAssembly.swift in Sources */,
 				09BFF26F265ED2A900395356 /* SplashInteractorImpl.swift in Sources */,
 				09BFF344266560EE00395356 /* CoreDataStack.swift in Sources */,
 				09BFF3BD2666BD1400395356 /* ConsejosRouterImpl.swift in Sources */,
 				09BFF238265D6EE700395356 /* SplashRouterImpl.swift in Sources */,
 				09BFF35E2665768600395356 /* GenericWebViewPresenterImpl.swift in Sources */,
+				0974F331266D586C00697B89 /* DetallesTrainingPresenter.swift in Sources */,
+				09BFF40426694C7900395356 /* DetalleConsejosPresenter.swift in Sources */,
+				0974F323266ABA0400697B89 /* WebKitPresenterProtocol.swift in Sources */,
 				09BFF2CD2661654200395356 /* TrainingTwoInteractorImpl.swift in Sources */,
 				09BFF33426617BBE00395356 /* HeaderTableViewCell.swift in Sources */,
 				09BFF3AA2666BBE600395356 /* ResponseConsejosModel.swift in Sources */,
@@ -731,7 +857,9 @@
 				09BFF3C82666BD3800395356 /* ConsejosViewController.swift in Sources */,
 				09BFF32C26616E1400395356 /* MenuViewController.swift in Sources */,
 				09BFF30A266166C100395356 /* MenuAssembly.swift in Sources */,
+				0974F343266D6FA500697B89 /* TrainingDescriptionCell.swift in Sources */,
 				09BFF3492665702C00395356 /* NetworkError.swift in Sources */,
+				09BFF3FF26694C1B00395356 /* DetalleConsejosAssembly.swift in Sources */,
 				09BFF2CC2661654200395356 /* TrainingTwoAssembly.swift in Sources */,
 				09BFF267265EC76E00395356 /* ResponseMenuModel.swift in Sources */,
 			);
@@ -1066,6 +1194,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0974F2FE266AA8C600697B89 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		0974F307266AA9C100697B89 /* XCRemoteSwiftPackageReference "PKHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pkluz/PKHUD.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0974F2FF266AA8C600697B89 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0974F2FE266AA8C600697B89 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		0974F308266AA9C100697B89 /* PKHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0974F307266AA9C100697B89 /* XCRemoteSwiftPackageReference "PKHUD" */;
+			productName = PKHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 09BFF1BE265C248F00395356 /* Project object */;
 }

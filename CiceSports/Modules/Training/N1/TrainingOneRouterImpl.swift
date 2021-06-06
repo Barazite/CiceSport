@@ -7,7 +7,7 @@
 import Foundation
 
 protocol TrainingOneRouterProtocol {
-    
+    func showDetail(data: ArrayDiccionariosNivel)
 }
 
 class TrainingOneRouterImpl: BaseRouter< TrainingOnePresenterProtocol> {
@@ -16,6 +16,11 @@ class TrainingOneRouterImpl: BaseRouter< TrainingOnePresenterProtocol> {
 }
 
 extension TrainingOneRouterImpl: TrainingOneRouterProtocol {
+    func showDetail(data: ArrayDiccionariosNivel) {
+        let vc = DetallesTrainingAssembly.viewController(data: DetallesTrainingAssemblyDTO.init(data: data))
+        self.show(vc)
+    }
+    
     
     
 }

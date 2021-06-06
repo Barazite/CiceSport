@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import MessageUI
 
 public protocol ReuseIdentifierInterface: class{
     static var defaultReuseIdentifier: String { get }
@@ -36,6 +37,21 @@ extension UIViewController {
         revealViewController()?.panGestureRecognizer()
         self.navigationItem.leftBarButtonItem = menuButton
     }
+    
+    func configuredMailComposeViewController() -> MFMailComposeViewController{
+        let mailCompose = MFMailComposeViewController()
+        mailCompose.setToRecipients(["Info@icologic.com"])
+        mailCompose.setSubject("Ayuda desde la App CiceSports")
+        mailCompose.setMessageBody("Escribe tu mensaje al equipo de soporte de CiceSports", isHTML: false)
+        return mailCompose
+    }
+    
+    func showAlertVC(title: String, message: String) -> UIAlertController{
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        return alert
+    }
 }
 
 func showImageMenuWithName(imageMenu: Menu) -> UIImage{
@@ -50,6 +66,17 @@ func showImageMenuWithName(imageMenu: Menu) -> UIImage{
         return #imageLiteral(resourceName: "consejosAvatar")
     default:
         return #imageLiteral(resourceName: "icostop")
+    }
+}
+
+func showImageConsejosWithName(imageConsejos: ConsejosGenerale) -> UIImage{
+    switch imageConsejos.image{
+    case "icono_obstaculos":
+        return #imageLiteral(resourceName: "workout_58")
+    case "icono_carrera":
+        return #imageLiteral(resourceName: "workout_80")
+    default:
+        return #imageLiteral(resourceName: "workout_12")
         
     }
 }

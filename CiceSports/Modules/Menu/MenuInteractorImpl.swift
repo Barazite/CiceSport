@@ -21,7 +21,7 @@ extension MenuInteractorImpl: MenuInteractorProtocol {
         CoreDataStack.shared.isFirsTime { (result) in
         if result
         {
-            CoreDataStack.shared.setValueFirstTime(value: false)
+            CoreDataStack.shared.setValueFirstTime(value: true)
             self.provider.fetchConsejos{ [weak self] (result) in
                 guard self != nil else { return }
                 switch result{

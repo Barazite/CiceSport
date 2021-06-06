@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MessageUI
 
 protocol MenuViewControllerProtocol {
     
@@ -102,4 +103,21 @@ extension MenuViewController:  UITableViewDelegate, UITableViewDataSource{
             }
         }
     }
+    
+    private func sendMail(){
+        let mailComposeVC = configuredMailComposeViewController()
+        mailComposeVC.mailComposeDelegate = self
+        if MFMailComposeViewController.canSendMail(){
+            present(mailComposeVC, animated: true, completion: nil)
+        }else{
+            present(showAlertVC(title: "heeeyyy", message: "No se puede enviar el email"), animated: true, completion: nil)
+        }
+    }
 }
+
+extension MenuViewController: MFMailComposeViewControllerDelegate{
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        controller.dismiss(animated: true, completion: nil)
+    }
+}
+

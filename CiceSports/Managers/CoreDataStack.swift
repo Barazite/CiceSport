@@ -94,11 +94,34 @@ class CoreDataStack{
         }
         return myData
     }
+    
+    func setTrainingOne(data: [ArrayDiccionariosNivel]){
+        do{
+        UserDefaults.standard.set(try PropertyListEncoder().encode(data), forKey: CoreDataStack.Constants.trainingOne)
+        }catch let error{
+            print(error)
+        }
+    }
+    
+    func getTrainingOne() -> [ArrayDiccionariosNivel]?{
+        var myData: [ArrayDiccionariosNivel] = []
+        if let data = UserDefaults.standard.value(forKey: CoreDataStack.Constants.trainingOne) as? Data {
+            do{
+                myData = try PropertyListDecoder().decode([ArrayDiccionariosNivel].self, from: data)
+            }catch let error{
+                print(error)
+            }
+        }else{
+            return nil
+        }
+        return myData
+    }
 }
 
 private extension CoreDataStack{
     struct Constants{
         static let menu = "menu"
         static let consejos = "consejos"
+        static let trainingOne = "trainingOne"
     }
 }

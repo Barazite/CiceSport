@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="155" id="KGk-i7-Jjw" customClass="TrainingGenericCell" customModule="CiceSports" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="155"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="155"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fxM-OW-0D2">
+                        <rect key="frame" x="8" y="8" width="304" height="139"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="TUZ-WQ-68U">
+                                <rect key="frame" x="0.0" y="0.0" width="304" height="139"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient_overlay" translatesAutoresizingMaskIntoConstraints="NO" id="n3b-xy-EGI">
+                                <rect key="frame" x="0.0" y="0.0" width="304" height="139"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RXh-Na-as7">
+                                <rect key="frame" x="8" y="109" width="288" height="22"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RXh-Na-as7" secondAttribute="trailing" constant="8" id="1b5-IA-don"/>
+                            <constraint firstAttribute="trailing" secondItem="n3b-xy-EGI" secondAttribute="trailing" id="Bac-4Z-yw4"/>
+                            <constraint firstItem="TUZ-WQ-68U" firstAttribute="top" secondItem="fxM-OW-0D2" secondAttribute="top" id="BwX-Gc-BIZ"/>
+                            <constraint firstAttribute="bottom" secondItem="TUZ-WQ-68U" secondAttribute="bottom" id="D19-Ai-pI1"/>
+                            <constraint firstItem="TUZ-WQ-68U" firstAttribute="leading" secondItem="fxM-OW-0D2" secondAttribute="leading" id="FWq-L3-nP4"/>
+                            <constraint firstItem="RXh-Na-as7" firstAttribute="leading" secondItem="fxM-OW-0D2" secondAttribute="leading" constant="8" id="JTG-2R-BWp"/>
+                            <constraint firstItem="n3b-xy-EGI" firstAttribute="leading" secondItem="fxM-OW-0D2" secondAttribute="leading" id="KaQ-5F-rOj"/>
+                            <constraint firstAttribute="bottom" secondItem="n3b-xy-EGI" secondAttribute="bottom" id="hME-L8-rkM"/>
+                            <constraint firstAttribute="trailing" secondItem="TUZ-WQ-68U" secondAttribute="trailing" id="k6m-ur-JJA"/>
+                            <constraint firstItem="n3b-xy-EGI" firstAttribute="top" secondItem="fxM-OW-0D2" secondAttribute="top" id="lQZ-cC-Q1a"/>
+                            <constraint firstAttribute="bottom" secondItem="RXh-Na-as7" secondAttribute="bottom" constant="8" id="r7f-xj-4De"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="fxM-OW-0D2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Bcd-xA-eUW"/>
+                    <constraint firstAttribute="bottom" secondItem="fxM-OW-0D2" secondAttribute="bottom" constant="8" id="JdN-6E-FXD"/>
+                    <constraint firstItem="fxM-OW-0D2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="hsV-jd-rXV"/>
+                    <constraint firstAttribute="trailing" secondItem="fxM-OW-0D2" secondAttribute="trailing" constant="8" id="yjE-gK-ZOJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="genericCellView" destination="fxM-OW-0D2" id="y55-MH-8iA"/>
+                <outlet property="trainingCellImage" destination="TUZ-WQ-68U" id="iJN-4c-3oH"/>
+                <outlet property="trainingCellLBL" destination="RXh-Na-as7" id="7yG-fR-W70"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="117.1875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="gradient_overlay" width="320" height="300"/>
+        <image name="placeholder" width="1280" height="800"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

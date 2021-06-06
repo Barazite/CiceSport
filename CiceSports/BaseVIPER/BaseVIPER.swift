@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import PKHUD
 
 //MARK: - BaseViewController
 class BaseViewController<P> : UIViewController{
@@ -35,6 +36,16 @@ class BaseViewController<P> : UIViewController{
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+    
+    func showLoading(view: UIView, animated: Bool){
+        //MBProgressHUD.showAdded(to: view, animated: animated)
+        HUD.show(.progress)
+    }
+    
+    func hideLoading(view: UIView, animated: Bool){
+        //MBProgressHUD.hide(for: view, animated: animated)
+        HUD.hide()
     }
 }
 
@@ -80,7 +91,7 @@ class BaseRouter<P>{
     
     internal func show (_ vc: UIViewController){
         if let navigationController = viewController?.navigationController{
-            
+            navigationController.pushViewController(vc, animated: true)
         }
     }
     

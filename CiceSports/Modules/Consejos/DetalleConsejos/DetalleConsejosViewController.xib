@@ -8,9 +8,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TrainingOneViewController" customModule="CiceSports" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetalleConsejosViewController" customModule="CiceSports" customModuleProvider="target">
             <connections>
-                <outlet property="myTableView" destination="dVl-Eu-Pwb" id="pJR-nE-7ud"/>
+                <outlet property="myTableViewDetalleConsejos" destination="bg5-Yr-eQI" id="kRB-0b-Jkf"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,7 +19,7 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dVl-Eu-Pwb">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bg5-Yr-eQI">
                     <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
@@ -27,12 +27,12 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="dVl-Eu-Pwb" secondAttribute="bottom" id="8vu-vD-uZv"/>
-                <constraint firstItem="dVl-Eu-Pwb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="HEx-Op-cVT"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dVl-Eu-Pwb" secondAttribute="trailing" id="aw5-7i-fIa"/>
-                <constraint firstItem="dVl-Eu-Pwb" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="tXf-yR-J8q"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="bg5-Yr-eQI" secondAttribute="trailing" id="4SA-8V-dof"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="bg5-Yr-eQI" secondAttribute="bottom" id="jdc-LV-d7U"/>
+                <constraint firstItem="bg5-Yr-eQI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ofU-1o-nAZ"/>
+                <constraint firstItem="bg5-Yr-eQI" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="wB7-tw-pgR"/>
             </constraints>
-            <point key="canvasLocation" x="-249" y="153"/>
+            <point key="canvasLocation" x="138" y="146"/>
         </view>
     </objects>
     <resources>

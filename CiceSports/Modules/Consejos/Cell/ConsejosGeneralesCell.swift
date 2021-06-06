@@ -26,5 +26,6 @@ class ConsejosGeneralesCell: BaseTableViewCell<ConsejosGenerale>, ReuseIdentifie
     
     override func configured(cellModel: ConsejosGenerale) {
         self.myNameConsejosLBL.text = cellModel.title!
+        self.myImageView.image = showImageConsejosWithName(imageConsejos: cellModel)
     }
 }
