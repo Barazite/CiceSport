@@ -27,5 +27,23 @@ class WebViewManager: NSObject {
 }
 
 extension WebViewManager: WKNavigationDelegate{
+    func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
+        self.presenter?.webViewProvisioningNavigation(webView, navigation: navigation)
+    }
     
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        self.presenter?.webViewDidFinish(webView, navigation: navigation)
+    }
+    
+    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+        self.presenter?.webViewNavigationActionRequest(webView, actionRequest: navigationAction, handler: decisionHandler)
+    }
+    
+    func webView(_ webView: WKWebView, decidePolicyFor navigationResponse: WKNavigationResponse, decisionHandler: @escaping (WKNavigationResponsePolicy) -> Void) {
+        self.presenter?.webViewNavigationActionResponse(webView, response: navigationResponse, handler: decisionHandler)
+    }
+    
+    func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
+        self.presenter?.webViewNavigationFailed(webView, navigation: navigation, error: error)
+    }
 }

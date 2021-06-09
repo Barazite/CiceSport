@@ -22,3 +22,4 @@ extension DetallesTrainingPresenterImpl: DetallesTrainingPresenterProtocol{
         self.data
     }
 }
+

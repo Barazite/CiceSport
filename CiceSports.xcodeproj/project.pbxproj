@@ -21,6 +21,7 @@
 		0974F344266D6FA500697B89 /* TrainingDescriptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0974F342266D6FA500697B89 /* TrainingDescriptionCell.xib */; };
 		0974F34A266D755900697B89 /* TrainingVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974F348266D755900697B89 /* TrainingVideoCell.swift */; };
 		0974F34B266D755900697B89 /* TrainingVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0974F349266D755900697B89 /* TrainingVideoCell.xib */; };
+		0974F363266FD94700697B89 /* TrainingVideoCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974F362266FD94700697B89 /* TrainingVideoCellPresenter.swift */; };
 		09BFF1CA265C249000395356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF1C9265C249000395356 /* AppDelegate.swift */; };
 		09BFF1D3265C249100395356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF1D2265C249100395356 /* Assets.xcassets */; };
 		09BFF1D6265C249100395356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BFF1D4265C249100395356 /* LaunchScreen.storyboard */; };
@@ -105,23 +106,6 @@
 		09BFF41226695DC200395356 /* EntrenamientosResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BFF41126695DC200395356 /* EntrenamientosResponseModel.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		09BFF1DD265C249200395356 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 09BFF1BE265C248F00395356 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 09BFF1C5265C249000395356;
-			remoteInfo = CiceSports;
-		};
-		09BFF1E8265C249200395356 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 09BFF1BE265C248F00395356 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 09BFF1C5265C249000395356;
-			remoteInfo = CiceSports;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		0974F2ED266A994200697B89 /* TrainingGenericCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingGenericCell.swift; sourceTree = "<group>"; };
 		0974F2EE266A994200697B89 /* TrainingGenericCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainingGenericCell.xib; sourceTree = "<group>"; };
@@ -132,12 +116,11 @@
 		0974F330266D586C00697B89 /* DetallesTrainingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesTrainingPresenter.swift; sourceTree = "<group>"; };
 		0974F335266D590300697B89 /* DetallesTrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesTrainingViewController.swift; sourceTree = "<group>"; };
 		0974F336266D590300697B89 /* DetallesTrainingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetallesTrainingViewController.xib; sourceTree = "<group>"; };
-		0974F33F266D67BA00697B89 /* CiceSportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiceSportsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0974F340266D67BA00697B89 /* CiceSportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiceSportsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0974F341266D6FA500697B89 /* TrainingDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingDescriptionCell.swift; sourceTree = "<group>"; };
 		0974F342266D6FA500697B89 /* TrainingDescriptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainingDescriptionCell.xib; sourceTree = "<group>"; };
 		0974F348266D755900697B89 /* TrainingVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingVideoCell.swift; sourceTree = "<group>"; };
 		0974F349266D755900697B89 /* TrainingVideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainingVideoCell.xib; sourceTree = "<group>"; };
+		0974F362266FD94700697B89 /* TrainingVideoCellPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingVideoCellPresenter.swift; sourceTree = "<group>"; };
 		09BFF1C9265C249000395356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09BFF1D2265C249100395356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09BFF1D5265C249100395356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -236,20 +219,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		09BFF1D9265C249200395356 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		09BFF1E4265C249200395356 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -262,6 +231,7 @@
 				0974F342266D6FA500697B89 /* TrainingDescriptionCell.xib */,
 				0974F348266D755900697B89 /* TrainingVideoCell.swift */,
 				0974F349266D755900697B89 /* TrainingVideoCell.xib */,
+				0974F362266FD94700697B89 /* TrainingVideoCellPresenter.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -291,8 +261,6 @@
 			children = (
 				09BFF1C8265C249000395356 /* CiceSports */,
 				0974F313266AAEC500697B89 /* CiceSports.app */,
-				0974F33F266D67BA00697B89 /* CiceSportsTests.xctest */,
-				0974F340266D67BA00697B89 /* CiceSportsUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -655,42 +623,6 @@
 			productReference = 0974F313266AAEC500697B89 /* CiceSports.app */;
 			productType = "com.apple.product-type.application";
 		};
-		09BFF1DB265C249200395356 /* CiceSportsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 09BFF1F3265C249200395356 /* Build configuration list for PBXNativeTarget "CiceSportsTests" */;
-			buildPhases = (
-				09BFF1D8265C249200395356 /* Sources */,
-				09BFF1D9265C249200395356 /* Frameworks */,
-				09BFF1DA265C249200395356 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				09BFF1DE265C249200395356 /* PBXTargetDependency */,
-			);
-			name = CiceSportsTests;
-			productName = CiceSportsTests;
-			productReference = 0974F33F266D67BA00697B89 /* CiceSportsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		09BFF1E6265C249200395356 /* CiceSportsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 09BFF1F6265C249200395356 /* Build configuration list for PBXNativeTarget "CiceSportsUITests" */;
-			buildPhases = (
-				09BFF1E3265C249200395356 /* Sources */,
-				09BFF1E4265C249200395356 /* Frameworks */,
-				09BFF1E5265C249200395356 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				09BFF1E9265C249200395356 /* PBXTargetDependency */,
-			);
-			name = CiceSportsUITests;
-			productName = CiceSportsUITests;
-			productReference = 0974F340266D67BA00697B89 /* CiceSportsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -703,14 +635,6 @@
 					09BFF1C5265C249000395356 = {
 						CreatedOnToolsVersion = 12.3;
 						LastSwiftMigration = 1230;
-					};
-					09BFF1DB265C249200395356 = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 09BFF1C5265C249000395356;
-					};
-					09BFF1E6265C249200395356 = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 09BFF1C5265C249000395356;
 					};
 				};
 			};
@@ -733,8 +657,6 @@
 			projectRoot = "";
 			targets = (
 				09BFF1C5265C249000395356 /* CiceSports */,
-				09BFF1DB265C249200395356 /* CiceSportsTests */,
-				09BFF1E6265C249200395356 /* CiceSportsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -764,20 +686,6 @@
 				09BFF1D3265C249100395356 /* Assets.xcassets in Resources */,
 				09BFF38F2666A7A300395356 /* AlertDefaultViewController.xib in Resources */,
 				09BFF40C2669545700395356 /* DetalleConsejoTableViewCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		09BFF1DA265C249200395356 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		09BFF1E5265C249200395356 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -840,6 +748,7 @@
 				0974F32C266D585A00697B89 /* DetallesTrainingAssembly.swift in Sources */,
 				09BFF26F265ED2A900395356 /* SplashInteractorImpl.swift in Sources */,
 				09BFF344266560EE00395356 /* CoreDataStack.swift in Sources */,
+				0974F363266FD94700697B89 /* TrainingVideoCellPresenter.swift in Sources */,
 				09BFF3BD2666BD1400395356 /* ConsejosRouterImpl.swift in Sources */,
 				09BFF238265D6EE700395356 /* SplashRouterImpl.swift in Sources */,
 				09BFF35E2665768600395356 /* GenericWebViewPresenterImpl.swift in Sources */,
@@ -865,34 +774,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		09BFF1D8265C249200395356 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		09BFF1E3265C249200395356 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		09BFF1DE265C249200395356 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 09BFF1C5265C249000395356 /* CiceSports */;
-			targetProxy = 09BFF1DD265C249200395356 /* PBXContainerItemProxy */;
-		};
-		09BFF1E9265C249200395356 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 09BFF1C5265C249000395356 /* CiceSports */;
-			targetProxy = 09BFF1E8265C249200395356 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		09BFF1D4265C249100395356 /* LaunchScreen.storyboard */ = {
@@ -915,7 +797,84 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		09BFF1EE265C249200395356 /* Debug */ = {
+		0974F358266E9E4800697B89 /* PRO */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PRO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = PRO;
+		};
+		0974F359266E9E4800697B89 /* PRO */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CiceSports/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cice.co.iOS.CiceSports.CiceSports;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CiceSports/MenuLateral/CiceSports-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = PRO;
+		};
+		09BFF1EE265C249200395356 /* DEV */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -972,12 +931,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEV;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = DEV;
 		};
-		09BFF1EF265C249200395356 /* Release */ = {
+		09BFF1EF265C249200395356 /* PRE */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1027,13 +986,14 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PRE;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = PRE;
 		};
-		09BFF1F1265C249200395356 /* Debug */ = {
+		09BFF1F1265C249200395356 /* DEV */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1052,9 +1012,9 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = Debug;
+			name = DEV;
 		};
-		09BFF1F2265C249200395356 /* Release */ = {
+		09BFF1F2265C249200395356 /* PRE */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1072,87 +1032,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = Release;
-		};
-		09BFF1F4265C249200395356 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CiceSportsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cice.co.iOS.CiceSports.CiceSportsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CiceSports.app/CiceSports";
-			};
-			name = Debug;
-		};
-		09BFF1F5265C249200395356 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CiceSportsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cice.co.iOS.CiceSports.CiceSportsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CiceSports.app/CiceSports";
-			};
-			name = Release;
-		};
-		09BFF1F7265C249200395356 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CiceSportsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cice.co.iOS.CiceSports.CiceSportsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CiceSports;
-			};
-			name = Debug;
-		};
-		09BFF1F8265C249200395356 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CiceSportsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cice.co.iOS.CiceSports.CiceSportsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CiceSports;
-			};
-			name = Release;
+			name = PRE;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1160,38 +1040,22 @@
 		09BFF1C1265C248F00395356 /* Build configuration list for PBXProject "CiceSports" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09BFF1EE265C249200395356 /* Debug */,
-				09BFF1EF265C249200395356 /* Release */,
+				09BFF1EE265C249200395356 /* DEV */,
+				09BFF1EF265C249200395356 /* PRE */,
+				0974F358266E9E4800697B89 /* PRO */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = PRE;
 		};
 		09BFF1F0265C249200395356 /* Build configuration list for PBXNativeTarget "CiceSports" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09BFF1F1265C249200395356 /* Debug */,
-				09BFF1F2265C249200395356 /* Release */,
+				09BFF1F1265C249200395356 /* DEV */,
+				09BFF1F2265C249200395356 /* PRE */,
+				0974F359266E9E4800697B89 /* PRO */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		09BFF1F3265C249200395356 /* Build configuration list for PBXNativeTarget "CiceSportsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				09BFF1F4265C249200395356 /* Debug */,
-				09BFF1F5265C249200395356 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		09BFF1F6265C249200395356 /* Build configuration list for PBXNativeTarget "CiceSportsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				09BFF1F7265C249200395356 /* Debug */,
-				09BFF1F8265C249200395356 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = PRE;
 		};
 /* End XCConfigurationList section */
 

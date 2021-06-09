@@ -52,7 +52,7 @@ extension DetallesTrainingViewController: UITableViewDelegate, UITableViewDataSo
                 return cell
             default:
                 let cell = myTableView.dequeueReusableCell(withIdentifier: TrainingVideoCell.defaultReuseIdentifier, for: indexPath) as! TrainingVideoCell
-                //cell.configCell(data: data)
+                cell.configCell(data: data)
                 return cell
             }
         }else{
@@ -67,7 +67,7 @@ extension DetallesTrainingViewController: UITableViewDelegate, UITableViewDataSo
         case 1:
             return UITableView.automaticDimension
         default:
-            return 0
+            return 170
         }
         
     }
